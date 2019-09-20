@@ -68,8 +68,9 @@ current_t5 = lookup[current_value][4]
 
 print(current_t1, current_t2, current_t3, current_t4, current_t5)
 
-print("frequency of ",current_letter, " =", int(min(count_matrix[0][current_t1],
-													count_matrix[1][current_t2], 
-													count_matrix[2][current_t3],
-													count_matrix[3][current_t4],
-													count_matrix[4][current_t5])))
+print("frequency of ",current_letter, " =", 
+	int(min(count_matrix[0][current_t1],
+		count_matrix[1][current_t2], 
+		count_matrix[2][current_t3],
+		count_matrix[3][current_t4],
+		count_matrix[4][current_t5])))
